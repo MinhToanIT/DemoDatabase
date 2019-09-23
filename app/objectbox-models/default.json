@@ -1,0 +1,148 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:698799625403181443",
+      "lastPropertyId": "11:3161581506680006236",
+      "name": "Pet",
+      "properties": [
+        {
+          "id": "1:8436475016306434559",
+          "name": "id"
+        },
+        {
+          "id": "2:8981181517802163574",
+          "name": "name"
+        },
+        {
+          "id": "3:4419095021258536585",
+          "name": "field1"
+        },
+        {
+          "id": "4:2169608179729499563",
+          "name": "field2"
+        },
+        {
+          "id": "5:1987945816645069058",
+          "name": "field3"
+        },
+        {
+          "id": "6:2979546861735301303",
+          "name": "field4"
+        },
+        {
+          "id": "7:8955831500698891522",
+          "name": "field5"
+        },
+        {
+          "id": "8:6531566507991186525",
+          "name": "field6"
+        },
+        {
+          "id": "9:2876010130347824202",
+          "name": "field7"
+        },
+        {
+          "id": "10:8856215168925807836",
+          "name": "field8"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:7864424167956948154",
+      "lastPropertyId": "13:5096214975826611781",
+      "name": "User",
+      "properties": [
+        {
+          "id": "1:8430915444241116531",
+          "name": "id"
+        },
+        {
+          "id": "8:1418995152628857831",
+          "name": "firstName"
+        },
+        {
+          "id": "9:8100590401106591617",
+          "name": "lastName"
+        },
+        {
+          "id": "10:5870926271141941504",
+          "name": "email"
+        },
+        {
+          "id": "11:4338803898530604000",
+          "name": "mobile"
+        },
+        {
+          "id": "12:2790930179613455764",
+          "name": "address"
+        },
+        {
+          "id": "13:5096214975826611781",
+          "name": "imageUrl"
+        }
+      ],
+      "relations": [
+        {
+          "id": "2:5666255349360829747",
+          "name": "listPets"
+        }
+      ]
+    },
+    {
+      "id": "3:5274104017748498872",
+      "lastPropertyId": "1:1177598599463413967",
+      "name": "Customer",
+      "properties": [
+        {
+          "id": "1:1177598599463413967",
+          "name": "id"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:207272525291916375",
+      "lastPropertyId": "2:244421644647068194",
+      "name": "Order",
+      "properties": [
+        {
+          "id": "1:913860901213004853",
+          "name": "id"
+        },
+        {
+          "id": "2:244421644647068194",
+          "indexId": "2:815200836146432031",
+          "name": "customerId"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:207272525291916375",
+  "lastIndexId": "2:815200836146432031",
+  "lastRelationId": "2:5666255349360829747",
+  "lastSequenceId": "0:0",
+  "modelVersion": 4,
+  "modelVersionParserMinimum": 4,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    433182368554890440
+  ],
+  "retiredPropertyUids": [
+    2719907749095165523,
+    123394085009150827,
+    6586624625868991925,
+    2453417657047236555,
+    380944483535644059,
+    2492983740296169531,
+    3161581506680006236
+  ],
+  "retiredRelationUids": [
+    6006735670030549737
+  ],
+  "version": 1
+}
