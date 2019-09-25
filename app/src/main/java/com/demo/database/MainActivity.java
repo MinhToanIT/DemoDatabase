@@ -26,7 +26,6 @@ import io.realm.RealmList;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Test ////
     private ProgressDialog progressDialog;
     private DbContext dbContext;
     private AppDatabase appDatabase;
