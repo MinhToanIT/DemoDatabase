@@ -47,11 +47,6 @@
         {
           "id": "10:8856215168925807836",
           "name": "field8"
-        },
-        {
-          "id": "11:3161581506680006236",
-          "indexId": "1:433182368554890440",
-          "name": "userId"
         }
       ],
       "relations": []
@@ -90,7 +85,12 @@
           "name": "imageUrl"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "id": "2:5666255349360829747",
+          "name": "listPets"
+        }
+      ]
     },
     {
       "id": "3:5274104017748498872",
@@ -124,19 +124,22 @@
   ],
   "lastEntityId": "4:207272525291916375",
   "lastIndexId": "2:815200836146432031",
-  "lastRelationId": "1:6006735670030549737",
+  "lastRelationId": "2:5666255349360829747",
   "lastSequenceId": "0:0",
   "modelVersion": 4,
   "modelVersionParserMinimum": 4,
   "retiredEntityUids": [],
-  "retiredIndexUids": [],
+  "retiredIndexUids": [
+    433182368554890440
+  ],
   "retiredPropertyUids": [
     2719907749095165523,
     123394085009150827,
     6586624625868991925,
     2453417657047236555,
     380944483535644059,
-    2492983740296169531
+    2492983740296169531,
+    3161581506680006236
   ],
   "retiredRelationUids": [
     6006735670030549737
